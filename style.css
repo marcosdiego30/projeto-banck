@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #ccc;
+    background-color: #d5ddd5;
 }
 
 header {
@@ -51,8 +51,7 @@ header .menu nav a:hover {
 }
 
 .login a {
-    background-color: #38af05;
-    color: #fff;
+    color: #00ff;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -62,7 +61,12 @@ header .menu nav a:hover {
     text-decoration: none;
 }
 
-.login a:hover, .text .btn:hover, .caixa button:hover,
+.login a:hover {
+    color: #38af05;
+    text-decoration: underline;
+}
+
+.text .btn:hover, .caixa button:hover,
 .text2 button:hover, .privaty button:hover {
     background-color: rgb(17, 93, 2);
 }
