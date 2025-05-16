@@ -50,7 +50,7 @@ header .menu nav a:hover {
     gap: 10px;
 }
 
-.login button {
+.login a {
     background-color: #38af05;
     color: #fff;
     padding: 5px;
@@ -59,9 +59,10 @@ header .menu nav a:hover {
     font-size: 18px;
     cursor: pointer;
     transition: .6s;
+    text-decoration: none;
 }
 
-.login button:hover, .text .btn:hover, .caixa button:hover,
+.login a:hover, .text .btn:hover, .caixa button:hover,
 .text2 button:hover, .privaty button:hover {
     background-color: rgb(17, 93, 2);
 }
